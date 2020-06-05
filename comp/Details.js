@@ -2,7 +2,7 @@ import * as React from 'react';
 import { View, Text, Button, TouchableOpacity, TextInput, StyleSheet, Alert } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import Signinpage from '../comp/Signinpage';
+import Signinpage from '../comp/Signinpage';//
 
 
 export default class DetailsScreen extends React.Component {
