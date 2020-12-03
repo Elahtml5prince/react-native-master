@@ -13,6 +13,7 @@ export default class App extends React.Component {
   constructor(props){
     super(props);
     console.log('App js constructor');
+    console.log('i have changed something..!');
     this.state = {
       profileName: "",
       baseUrl: "http://192.168.1.100:3000"
