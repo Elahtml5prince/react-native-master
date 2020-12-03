@@ -13,6 +13,7 @@ export default class App extends React.Component {
   constructor(props){
     super(props);
     console.log('App js constructor');
+    console.log('adding some line..!');
     console.log('i have changed something..!');
     this.state = {
       profileName: "",
