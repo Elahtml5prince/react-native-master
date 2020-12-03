@@ -16,6 +16,7 @@ export default class App extends React.Component {
     console.log('adding some line..!');
     console.log('i have changed something..!');
     console.log('This is my 1st');
+    console.log("This is my 2nd");
     this.state = {
       profileName: "",
       baseUrl: "http://192.168.1.100:3000"
